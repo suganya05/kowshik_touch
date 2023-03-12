@@ -1,0 +1,27 @@
+.classpage-card-grid a {
+  text-decoration: none;
+}
+
+.classpage-card {
+  background-color: #232323;
+  /* padding: 24px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+}
+.classpage-card-activeBox {
+  background: #232323;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.9s ease-out;
+}
+
+.active {
+  background: red;
+}

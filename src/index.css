@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.errorMsg {
+  color: red;
+  font-size: 12px;
+}
+
+a.active {
+  color: rgba(0, 206, 83, 1);
+  padding-bottom: 35px;
+  border-bottom: 2px solid rgba(0, 206, 83, 1);
+}
+
+.Navigation {
+  background: green;
+  padding: 20px;
+}
+.activeNav {
+  background: yellowgreen;
+}
+
+.fillUpQuestions {
+  margin-bottom: 20px;
+}
+.fillUpQuestions:nth-last-child() {
+  margin-bottom: 0;
+}

@@ -1,0 +1,9 @@
+export { default as Dashboard } from "./Dashboard";
+export { default as Attendance } from "./Attendance";
+export { default as NewAdmission } from "./NewAdmission";
+export { default as Students } from "./Students";
+export { default as Fees } from "./Fees";
+export { default as Faculty } from "./Faculty";
+export { default as Class } from "./Class";
+export { default as PdfPage } from "./PdfPage";
+export { default as Result } from "./Result";
